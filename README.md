@@ -2,11 +2,9 @@
 
 ### Description
 
-This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight.
-The initial dataset contains pre-labelled tweet and messages from real-life disaster. 
-The aim of the project is to build a Natural Language Processing tool that categorize messages.
+This Project is one part of the Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The beginning dataset contains pre-labeled tweet and messages from the real-life fiasco. The point of the extension is to construct a Characteristics Dialect Preparing apparatus that categorize messages.
 
-The Project is divided in the following Sections:
+The Project is split up into the following Sections:
 
 1. Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper databse structure
 2. Machine Learning Pipeline to train a model able to classify text message in categories
@@ -45,4 +43,3 @@ https://github.com/huyennguyen2602/udacity_ds_disaster_response_pipeline.git
 3. Run the following command in the app's directory to run your web app:
     `python run.py`
 
-4. Go to `http://0.0.0.0:3001/`

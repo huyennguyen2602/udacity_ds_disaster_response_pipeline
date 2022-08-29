@@ -50,6 +50,8 @@ def clean_data(df):
         categories[column] = categories[column].str[-1]
         # convert column from string to numeric
         categories[column] = categories[column]
+        # convert to binary
+        categories[column] = [1 if i > 0 else 0 for i in categories[column]]
     
     
     # drop the original categories column from `df` and concat the dataframes

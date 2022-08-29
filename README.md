@@ -1,4 +1,4 @@
-# Udacity_Disaster_Response_Pipeline
+# Udacity Disaster Response Pipeline
 
 ### Description
 

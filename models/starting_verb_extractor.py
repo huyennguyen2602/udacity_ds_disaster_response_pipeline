@@ -1,7 +1,7 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 
 class StartingVerbExtractor(BaseEstimator, TransformerMixin):
-
+# class used for expanding the model creating a starting verb extractor as a feature
     def starting_verb(self, text):
         sentence_list = nltk.sent_tokenize(text)
         for sentence in sentence_list:

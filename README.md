@@ -14,21 +14,21 @@ The Project is split up into the following Sections:
 
 ### Files:
   - Data:
-     - We have the disaster category and message csv files, that contain the data on which the model was trained in.
-     - We have process_data.py which has the ETL pipeline.
-     - We have the database created 'DisasterResponse.db', this is the output of running the ETL pipeline.
+     - `disaster_categories.csv` and `disaster_messages.csv`: contain the data on which the model was trained in.
+     - `process_data.py`: contain the ETL pipeline.
+     - `DisasterResponse.db`: this is the output of running the ETL pipeline.
      
   - Models:
-    - We have the 'train_classifier.py' from where the ML pipeline is contained.
-    - We have the 'starting_verb_extractor.py' which is a class used for expanding the model creating a starting verb extractor as 
+    - `train_classifier.py`: contain ML pipeline
+    - `starting_verb_extractor.py` : this is a class used for expanding the model creating a starting verb extractor as 
       a feature.
       
   - App:
-    - We have 'run.py' which is used as the main file for starting the web app.
+    - `run.py`: this is used as the main file for starting the web app.
 
 ### Instructions:
 
-1. Clone this GIT repository:
+1. Link to GitHub Repository:
 ```
 https://github.com/huyennguyen2602/udacity_ds_disaster_response_pipeline.git
 ```

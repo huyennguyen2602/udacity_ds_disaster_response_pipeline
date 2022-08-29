@@ -2,7 +2,8 @@
 
 ### Description
 
-This Project is one part of the Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The beginning dataset contains pre-labeled tweet and messages from the real-life fiasco. The point of the extension is to construct a Characteristics Dialect Preparing apparatus that categorize messages.
+This Project is one part of the Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. 
+In this project, we will analyze disaster data set containing real messages that were sent during disaster events to build a model for an API that classifies disaster messages.
 
 The Project is split up into the following Sections:
 
